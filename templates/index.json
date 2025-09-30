@@ -109,7 +109,7 @@
         "heading_wEpFbq": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Tu sala, el corazón de tu hogar.</strong>",
+            "heading": "<strong>Tu sala, el corazón de tu hogar</strong><em><strong>.</strong></em>",
             "heading_size": "h1"
           }
         },
@@ -133,6 +133,11 @@
         "heading_wEpFbq",
         "text_mBHPLY",
         "button_7tCDNP"
+      ],
+      "custom_css": [
+        "p {font-family: var(--font-heading-family); color: #fff; font-size: 2rem; line-height: 2.5rem;}",
+        "h2 {font-size: 3.2rem; line-height: 3rem;}",
+        "h2 em{color:#163683;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
