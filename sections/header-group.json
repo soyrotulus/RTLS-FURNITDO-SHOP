@@ -37,6 +37,9 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        "nav * {font-weight: 600; font-size: 1.8rem;}"
+      ],
       "settings": {
         "logo_position": "top-left",
         "mobile_logo_position": "center",
