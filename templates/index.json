@@ -63,7 +63,34 @@
         "heading_ztzjCR"
       ],
       "custom_css": [
-        "em {color: #ff4c00; font-style: normal;}"
+        "h2 em {color: #ff4c00; font-style: normal;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-98487ba9-f1e6-4634-95b3-7052e3807641",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 12
+      }
+    },
+    "rich_text_3kmPfK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ePmwry": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Lo más nuevo en Furnit</strong><em><strong>.</strong></em>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ePmwry"
+      ],
+      "custom_css": [
+        "h2 em {color: #ff4c00; font-style: normal;}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -107,6 +134,7 @@
   "order": [
     "image_banner",
     "rich_text_7KxXky",
+    "rich_text_3kmPfK",
     "featured_collection"
   ]
 }
