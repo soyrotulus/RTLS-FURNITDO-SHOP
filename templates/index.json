@@ -63,16 +63,16 @@
         "heading_ztzjCR"
       ],
       "custom_css": [
-        "em{color:#ff4c00; font-style:normal;}"
+        "em {color: #ff4c00; font-style: normal;}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
-        "color_scheme": "",
+        "color_scheme": "scheme-98487ba9-f1e6-4634-95b3-7052e3807641",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 12
       }
     },
     "featured_collection": {
