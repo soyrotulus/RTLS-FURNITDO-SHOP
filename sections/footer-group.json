@@ -34,21 +34,29 @@
             "heading": "Nosotros",
             "menu": "footer-nosotros"
           }
+        },
+        "text_ytiqYn": {
+          "type": "text",
+          "settings": {
+            "heading": "Encabezado",
+            "subtext": "<p>Av. Barceló Km 5, Naves San Rafael, Bávaro,  República Dominicana</p>"
+          }
         }
       },
       "block_order": [
         "link_list_HbhX9D",
         "link_list_bLY7XN",
-        "link_list_MkXTJi"
+        "link_list_MkXTJi",
+        "text_ytiqYn"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": true,
-        "enable_language_selector": true,
+        "enable_language_selector": false,
         "payment_enable": true,
         "show_policy": true,
         "margin_top": 0,
