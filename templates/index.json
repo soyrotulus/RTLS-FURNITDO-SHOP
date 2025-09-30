@@ -62,6 +62,9 @@
       "block_order": [
         "heading_ztzjCR"
       ],
+      "custom_css": [
+        "em{color:#ff4c00; font-style:normal;}"
+      ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "left",
