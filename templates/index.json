@@ -109,15 +109,15 @@
         "heading_wEpFbq": {
           "type": "heading",
           "settings": {
-            "heading": "Imagen con texto",
+            "heading": "<strong>Tu sala, el corazón de tu hogar.</strong>",
             "heading_size": "h1"
           }
         },
         "text_mBHPLY": {
           "type": "text",
           "settings": {
-            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
-            "text_style": "body"
+            "text": "<p>Encuentra muebles y complementos<br/>que combinan confort, estilo y durabilidad</p>",
+            "text_style": "subtitle"
           }
         },
         "button_7tCDNP": {
