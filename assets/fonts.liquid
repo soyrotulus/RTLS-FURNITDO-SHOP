@@ -1,0 +1,108 @@
+/* ===============================
+   Fuentes personalizadas Shopify
+   =============================== */
+
+/* TarzanaWide */
+@font-face {
+  font-family: 'TarzanaWide';
+  src: url('{{ "TarzanaWide.woff2" | asset_url }}') format('woff2'),
+       url('{{ "TarzanaWide.woff" | asset_url }}') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TarzanaWide';
+  src: url('{{ "TarzanaWideBold.woff2" | asset_url }}') format('woff2'),
+       url('{{ "TarzanaWideBold.woff" | asset_url }}') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Texta */
+@font-face {
+  font-family: 'Texta';
+  src: url('{{ "Texta-Regular.woff2" | asset_url }}') format('woff2'),
+       url('{{ "Texta-Regular.woff" | asset_url }}') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Texta';
+  src: url('{{ "Texta-Bold.woff2" | asset_url }}') format('woff2'),
+       url('{{ "Texta-Bold.woff" | asset_url }}') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Texta';
+  src: url('{{ "Texta-Light.woff2" | asset_url }}') format('woff2'),
+       url('{{ "Texta-Light.woff" | asset_url }}') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Texta';
+  src: url('{{ "Texta-Medium.woff2" | asset_url }}') format('woff2'),
+       url('{{ "Texta-Medium.woff" | asset_url }}') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Texta';
+  src: url('{{ "Texta-Heavy.woff2" | asset_url }}') format('woff2'),
+       url('{{ "Texta-Heavy.woff" | asset_url }}') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Texta';
+  src: url('{{ "Texta-Thin.woff2" | asset_url }}') format('woff2'),
+       url('{{ "Texta-Thin.woff" | asset_url }}') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ===============================
+   Uso global de las fuentes
+   =============================== */
+body {
+  font-family: 'Texta', Arial, sans-serif;
+  font-weight: normal;
+  color: #222;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'TarzanaWide', Georgia, serif;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 0 0 0.5em;
+}
+
+p, li, span, a {
+  font-family: 'Texta', Arial, sans-serif;
+}
+
+button,
+.shopify-payment-button__button,
+.btn,
+.button {
+  font-family: 'Texta', Arial, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
