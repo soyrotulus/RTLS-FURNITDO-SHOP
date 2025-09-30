@@ -123,8 +123,8 @@
         "button_7tCDNP": {
           "type": "button",
           "settings": {
-            "button_label": "Etiqueta de botón",
-            "button_link": "",
+            "button_label": "Comprar ahora",
+            "button_link": "#",
             "button_style_secondary": false
           }
         }
@@ -145,7 +145,7 @@
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
         "section_color_scheme": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-224fa183-606b-453c-ab4c-ad0f7375818a",
         "padding_top": 0,
         "padding_bottom": 0
       }
