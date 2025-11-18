@@ -86,6 +86,11 @@
         "collapsible_tab_UVMNdQ",
         "share"
       ],
+      "custom_css": [
+        "h1 {color: #163683;}",
+        "p{font-size: 2rem; line-height: 2.5rem;}",
+        "h2, label{text-transform: uppercase;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-2c860660-8e31-4a11-90b8-b64d6047383b",
