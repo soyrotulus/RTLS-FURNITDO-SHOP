@@ -61,6 +61,47 @@
         "show_text_below": true
       }
     },
+    "slideshow_ph3V7Y": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_hjxXDg": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 40,
+            "heading": "Diapositiva de imagen<strong>.</strong>",
+            "heading_size": "h1",
+            "subheading": "Cuenta la historia de tu marca a través de imágenes",
+            "button_label": "Etiqueta de botón",
+            "link": "#",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "color_scheme": "scheme-e44d2967-7d1f-4ce3-9613-d9fe20bb9512"
+          }
+        }
+      },
+      "block_order": [
+        "slide_hjxXDg"
+      ],
+      "custom_css": [
+        "h2 {line-height: 3rem;}",
+        "p {font-size: 2.5rem; line-height: 3rem; opacity: 1; color: #fff;}",
+        "strong {color: #ff4c00; font-weight: normal;}"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "grid",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Presentación de diapositivas sobre tu marca"
+      }
+    },
     "rich_text_7KxXky": {
       "type": "rich-text",
       "blocks": {
@@ -226,6 +267,7 @@
   },
   "order": [
     "image_banner",
+    "slideshow_ph3V7Y",
     "rich_text_7KxXky",
     "featured_collection_8Ef8pD",
     "image_with_text_XBeY4x",
