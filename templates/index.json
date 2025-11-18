@@ -44,8 +44,9 @@
         "button"
       ],
       "custom_css": [
-        "p{font-size: 2.5rem; line-height: 3rem; opacity: 1; color:#fff;}",
-        "strong{color:#FF4C00;}"
+        "h2 {line-height: 3rem;}",
+        "p {font-size: 2.5rem; line-height: 3rem; opacity: 1; color: #fff;}",
+        "strong {color: #ff4c00; font-weight: normal;}"
       ],
       "settings": {
         "image_overlay_opacity": 40,
@@ -56,8 +57,8 @@
         "show_text_box": false,
         "color_scheme": "scheme-e44d2967-7d1f-4ce3-9613-d9fe20bb9512",
         "stack_images_on_mobile": false,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
+        "mobile_content_alignment": "left",
+        "show_text_below": true
       }
     },
     "rich_text_7KxXky": {
