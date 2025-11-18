@@ -23,12 +23,6 @@
           "type": "title",
           "settings": {}
         },
-        "sku_UhkpCC": {
-          "type": "sku",
-          "settings": {
-            "text_style": "body"
-          }
-        },
         "description": {
           "type": "description",
           "settings": {}
@@ -83,7 +77,6 @@
       "block_order": [
         "vendor",
         "title",
-        "sku_UhkpCC",
         "description",
         "price",
         "variant_picker",
@@ -97,7 +90,7 @@
         "h1 {color: #163683;}",
         "p {font-size: 2rem; line-height: 2.5rem;}",
         "h2,label,.form__label {text-transform: uppercase;}",
-        ".product__text strong{color:#FF4C00;}"
+        ".product__text strong {color: #ff4c00;}"
       ],
       "settings": {
         "enable_sticky_info": true,
