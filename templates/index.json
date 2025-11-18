@@ -15,8 +15,15 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
+            "heading": "Browse our latest products<strong>.</strong>",
             "heading_size": "h0"
+          }
+        },
+        "text_macWm7": {
+          "type": "text",
+          "settings": {
+            "text": "Ofrece a los clientes información sobre las imágenes del banner o el contenido de la plantilla.",
+            "text_style": "body"
           }
         },
         "button": {
@@ -24,7 +31,7 @@
           "settings": {
             "button_label_1": "Shop all",
             "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -33,16 +40,21 @@
       },
       "block_order": [
         "heading",
+        "text_macWm7",
         "button"
+      ],
+      "custom_css": [
+        "p{font-size: 2.5rem; line-height: 3rem; opacity: 1; color:#fff;}",
+        "strong{color:#FF4C00;}"
       ],
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
         "image_behavior": "none",
-        "desktop_content_position": "bottom-center",
-        "desktop_content_alignment": "center",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "left",
         "show_text_box": false,
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-e44d2967-7d1f-4ce3-9613-d9fe20bb9512",
         "stack_images_on_mobile": false,
         "mobile_content_alignment": "center",
         "show_text_below": false
@@ -137,7 +149,7 @@
       "custom_css": [
         "p {font-family: var(--font-heading-family); color: #fff; font-size: 2rem; line-height: 2.5rem;}",
         "h2 {font-size: 3.2rem; line-height: 3rem;}",
-        "h2 em{color:#163683;}"
+        "h2 em {color: #163683;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
