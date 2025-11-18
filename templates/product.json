@@ -15,13 +15,19 @@
         "vendor": {
           "type": "text",
           "settings": {
-            "text": "",
-            "text_style": "uppercase"
+            "text": "<strong>Colección</strong>",
+            "text_style": "body"
           }
         },
         "title": {
           "type": "title",
           "settings": {}
+        },
+        "sku_UhkpCC": {
+          "type": "sku",
+          "settings": {
+            "text_style": "body"
+          }
         },
         "description": {
           "type": "description",
@@ -77,6 +83,7 @@
       "block_order": [
         "vendor",
         "title",
+        "sku_UhkpCC",
         "description",
         "price",
         "variant_picker",
@@ -89,7 +96,8 @@
       "custom_css": [
         "h1 {color: #163683;}",
         "p {font-size: 2rem; line-height: 2.5rem;}",
-        "h2,label, .form__label {text-transform: uppercase;}"
+        "h2,label,.form__label {text-transform: uppercase;}",
+        ".product__text strong{color:#FF4C00;}"
       ],
       "settings": {
         "enable_sticky_info": true,
