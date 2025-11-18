@@ -49,6 +49,24 @@
             "show_gift_card_recipient": true
           }
         },
+        "collapsible_tab_3FRkT9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Características",
+            "icon": "clipboard",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_UVMNdQ": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Cuidado del producto",
+            "icon": "washing",
+            "content": "",
+            "page": ""
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -64,6 +82,8 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "collapsible_tab_3FRkT9",
+        "collapsible_tab_UVMNdQ",
         "share"
       ],
       "settings": {
