@@ -68,7 +68,8 @@
         "slide_hjxXDg": {
           "type": "slide",
           "settings": {
-            "image_overlay_opacity": 40,
+            "image": "shopify://shop_images/bg-base_2.png",
+            "image_overlay_opacity": 30,
             "heading": "Diapositiva de imagen<strong>.</strong>",
             "heading_size": "h1",
             "subheading": "Cuenta la historia de tu marca a través de imágenes",
@@ -196,6 +197,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/Rectangle_2.png",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
