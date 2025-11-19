@@ -144,6 +144,18 @@
         </div>
       </div>
       <div class="card__content">
+        {%- liquid
+          assign color_option = null
+          if card_product.options_with_values.size > 0
+            for option in card_product.options_with_values
+              assign option_name = option.name | downcase
+              if option_name contains 'color' or option_name contains 'colour'
+                assign color_option = option
+                break
+              endif
+            endfor
+          endif
+        -%}
         <div class="card__information">
           <h3
             class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}"
@@ -160,6 +172,34 @@
               {{ card_product.title | escape }}
             </a>
           </h3>
+          {%- if color_option and color_option.values.size > 0 -%}
+            <div class="card-product__color-swatches" role="list">
+              <span class="visually-hidden">Color options</span>
+              {%- for value in color_option.values -%}
+                {%- liquid
+                  assign swatch_style = ''
+                  assign value_string = value | strip
+                  if value.swatch and value.swatch.image
+                    assign image_url = value.swatch.image | image_url: width: 40
+                    assign swatch_style = 'background-image: url(' | append: image_url | append: ');'
+                  elsif value.swatch and value.swatch.color
+                    assign swatch_style = 'background-color: rgb(' | append: value.swatch.color.rgb | append: ');'
+                  elsif value_string contains '#'
+                    assign swatch_style = 'background-color: ' | append: value_string | append: ';'
+                  endif
+                -%}
+                <span
+                  class="card-product__color-dot"
+                  role="listitem"
+                  aria-label="{{ value | escape }}"
+                  title="{{ value | escape }}"
+                  {% if swatch_style != blank %}
+                    style="{{ swatch_style }}"
+                  {% endif %}
+                ></span>
+              {%- endfor -%}
+            </div>
+          {%- endif -%}
           <div class="card-information">
             {%- if show_vendor -%}
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
