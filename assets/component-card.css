@@ -411,6 +411,19 @@
   box-shadow: none;
   outline: 0;
 }
+.card__information .card__heading {
+    font-size: 2rem !important; 
+    margin-top: 10px !important;
+    color: #163683 !important;
+}
+
+.card__information .card__description {
+    line-height: 2rem !important;
+}
+
+.card__information .price {
+    color: #163683 !important;
+}
 
 @media screen and (min-width: 990px) {
   .card .media.media--hover-effect > img:only-child,
