@@ -68,7 +68,8 @@
         "slide_hjxXDg": {
           "type": "slide",
           "settings": {
-            "image_overlay_opacity": 40,
+            "image": "shopify://shop_images/bg-base.png",
+            "image_overlay_opacity": 20,
             "heading": "Diapositiva de imagen<strong>.</strong>",
             "heading_size": "h1",
             "subheading": "Cuenta la historia de tu marca a través de imágenes",
