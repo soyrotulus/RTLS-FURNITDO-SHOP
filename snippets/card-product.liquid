@@ -200,6 +200,11 @@
               {{ card_product.title | escape }}
             </a>
           </h3>
+          {%- if card_product.description != blank -%}
+            <p class="card__description">
+              {{ card_product.description | strip_html | escape }}
+            </p>
+          {%- endif -%}
           <div class="card-information">
             {%- if show_vendor -%}
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
