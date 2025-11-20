@@ -98,11 +98,15 @@
         >
       </div>
     {%- endif -%}
-      <div class="collection-hero__action-wrapper">
-        <a href="{{ collection.url }}" class="button button--primary {% if section.settings.show_collection_image and collection.image %}color-scheme-5{% else %}color-scheme-4{% endif %}" style="position:relative; z-index:2;">
-          Descargar Catálogo
-        </a>  
-      </div>
+      {%- assign collection_catalog_pdf = collection.metafields.custom.catalogo_de_coleccion_pdf -%}
+      {%- if collection_catalog_pdf and collection_catalog_pdf.value != blank -%}
+        {%- assign collection_catalog_pdf_url = collection_catalog_pdf.value.url | default: collection_catalog_pdf.value -%}
+        <div class="collection-hero__action-wrapper">
+          <a href="{{ collection_catalog_pdf_url }}" class="button button--primary {% if section.settings.show_collection_image and collection.image %}color-scheme-5{% else %}color-scheme-4{% endif %}" style="position:relative; z-index:2;">
+            Descargar Catálogo
+          </a>  
+        </div>
+      {%- endif -%}
   </div>
 </div>
 
