@@ -99,7 +99,7 @@
       </div>
     {%- endif -%}
       <div class="collection-hero__action-wrapper">
-        <a href="{{ collection.url }}" class="btn btn--primary collection-hero__action" style="position:relative; z-index:2;">
+        <a href="{{ collection.url }}" class="button button--primary {% if section.settings.show_collection_image and collection.image %}color-scheme-5{% else %}color-scheme-4{% endif %}" style="position:relative; z-index:2;">
           Descargar Catálogo
         </a>  
       </div>
