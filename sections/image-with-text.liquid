@@ -118,7 +118,7 @@
                   {%- endif -%}
               {%- endcase -%}
             {%- endfor -%}
-            <span class="indication__title color-{{ section.settings.color_scheme }}"></span>
+            <span class="indication__title color-{% if section.settings.color_scheme != "scheme-224fa183-606b-453c-ab4c-ad0f7375818a" %}color-scheme-4{% else %}color-scheme-5{% endif %}"></span>
           </div>
         </div>
       </div>
