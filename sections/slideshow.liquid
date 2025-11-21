@@ -24,6 +24,19 @@
     }
   {%- endstyle -%}
 {%- endif -%}
+{%- style -%}
+  span.indication__title {
+      width: 70px;
+      height: 120px;
+      position: absolute;
+      border-radius: 0 300px 300px 0;
+      top: 0;
+      bottom: 30px;
+      left: -3rem;
+      margin: auto;
+      z-index: -1;
+  }
+{%- endstyle -%}
 
 <slideshow-component
   class="slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %}"
@@ -120,6 +133,7 @@
         aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
         tabindex="-1"
       >
+        <span class="indication__title {% if section.settings.show_collection_image and collection.image %}color-scheme-5{% else %}color-scheme-4{% endif %}"></span>
         <div class="slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
           {%- if block.settings.image -%}
             {%- liquid
