@@ -131,6 +131,9 @@
                       {%- if block.settings.show_social and has_social_icons -%}
                         {%- render 'social-icons', class: 'footer__list-social' -%}
                       {%- endif -%}
+                      <a href="#MainContent" class="footer-block__go-to-top-link" aria-label="Go to top">
+                        <img src="{{ 'gotop.svg' | asset_url }}" alt="Go to top" class="footer-block__go-to-top" width="50" height="50" loading="lazy" />
+                      </a>
                     </div>
                   {%- when 'image' -%}
                     <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
