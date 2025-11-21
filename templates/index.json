@@ -317,6 +317,9 @@
         "column_ndjtGD",
         "column_Epmwar"
       ],
+      "custom_css": [
+        "p {line-height: 1.8rem;}"
+      ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "",
