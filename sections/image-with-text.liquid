@@ -13,6 +13,19 @@
     }
   }
 {%- endstyle -%}
+{%- style -%}
+  .image-with-text span.indication__title {
+      width: 70px;
+      height: 120px;
+      position: absolute;
+      border-radius: 0 300px 300px 0;
+      top: 0;
+      bottom: 30px;
+      left: -3rem;
+      margin: auto;
+      z-index: -1;
+  }
+{%- endstyle -%}
 
 {%- liquid
   assign fetch_priority = 'auto'
@@ -60,6 +73,7 @@
           </div>
         </div>
         <div class="image-with-text__text-item grid__item">
+          <span class="indication__title color-{{ section.settings.color_scheme }}"></span>
           <div
             id="ImageWithText--{{ section.id }}"
             class="image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} content-container{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}"
