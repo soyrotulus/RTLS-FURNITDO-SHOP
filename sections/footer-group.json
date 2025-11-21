@@ -21,11 +21,11 @@
             "subtext": "<p>Av. Barceló Km 5, Naves San Rafael, Bávaro,  República Dominicana<br/><br/><strong>TEL.: </strong><a href=\"tel:18098312058 \" target=\"_blank\" title=\"Llámanos por teléfono\">(809) 831-2058 </a><br/><strong>WS.: </strong><a href=\"https://wa.me/18098312058?text=Hola!\" target=\"_blank\" title=\"Escríbenos vía whatsapp\">(809) 831-2058</a><br/><br/>Lun   3pm - 7pm<br/>Mar - Vie  10am - 7pm<br/>Sab  10am - 6pm</p>"
           }
         },
-        "link_list_MkXTJi": {
+        "link_list_bLY7XN": {
           "type": "link_list",
           "settings": {
-            "heading": "Nosotros",
-            "menu": "footer-nosotros"
+            "heading": "Works for you",
+            "menu": "footer-shop"
           }
         },
         "link_list_HbhX9D": {
@@ -35,19 +35,19 @@
             "menu": "footer-asistencia"
           }
         },
-        "link_list_bLY7XN": {
+        "link_list_MkXTJi": {
           "type": "link_list",
           "settings": {
-            "heading": "Works for you",
-            "menu": "footer-shop"
+            "heading": "Nosotros",
+            "menu": "footer-nosotros"
           }
         }
       },
       "block_order": [
         "text_ytiqYn",
-        "link_list_MkXTJi",
+        "link_list_bLY7XN",
         "link_list_HbhX9D",
-        "link_list_bLY7XN"
+        "link_list_MkXTJi"
       ],
       "custom_css": [
         "strong {color: #ff4c00; font-weight: normal;}",
