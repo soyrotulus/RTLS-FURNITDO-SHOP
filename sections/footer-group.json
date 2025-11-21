@@ -52,7 +52,7 @@
       "settings": {
         "color_scheme": "scheme-2",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "Ponte al día con Furnit<strong>.</strong>",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": true,
@@ -61,7 +61,7 @@
         "show_policy": true,
         "margin_top": 0,
         "padding_top": 84,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     }
   },
