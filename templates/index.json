@@ -273,7 +273,7 @@
         "column_wtArXn": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Rectangle_2.png",
+            "image": "shopify://shop_images/Comedores.png",
             "title": "Comedores",
             "text": "<p>Diseños que unen estilo y funcionalidad para que cada comida se convierta en un momento especial.</p>",
             "link_label": "",
@@ -283,9 +283,9 @@
         "column_eTnmG4": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Rectangle_2.png",
-            "title": "Comedores",
-            "text": "<p>Diseños que unen estilo y funcionalidad para que cada comida se convierta en un momento especial.</p>",
+            "image": "shopify://shop_images/exteriores.png",
+            "title": "Exteriores",
+            "text": "<p>Muebles resistentes y con estilo para disfrutar al máximo de tus espacios al aire libre.</p>",
             "link_label": "",
             "link": "#"
           }
@@ -293,9 +293,9 @@
         "column_ndjtGD": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Rectangle_2.png",
-            "title": "Comedores",
-            "text": "<p>Diseños que unen estilo y funcionalidad para que cada comida se convierta en un momento especial.</p>",
+            "image": "shopify://shop_images/Habitaciones.png",
+            "title": "Habitaciones",
+            "text": "<p>Crea un refugio acogedor con muebles que combinan confort, practicidad y diseño.</p>",
             "link_label": "",
             "link": "#"
           }
@@ -303,9 +303,9 @@
         "column_Epmwar": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Rectangle_2.png",
-            "title": "Comedores",
-            "text": "<p>Diseños que unen estilo y funcionalidad para que cada comida se convierta en un momento especial.</p>",
+            "image": "shopify://shop_images/oficina.png",
+            "title": "Oficinas",
+            "text": "<p>Soluciones ergonómicas y modernas para un entorno de trabajo productivo y elegante.</p>",
             "link_label": "",
             "link": "#"
           }
