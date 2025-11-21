@@ -4,6 +4,15 @@
   Usage:
   {% render 'header-dropdown-menu' %}
 {% endcomment %}
+{% style %}
+  .header__inline-menu li.monthly-sale-li {
+      margin-left: auto;
+  }
+
+  .header__inline-menu li.monthly-sale-li > a > span {
+      color: #f54b04 !important;
+  }
+{% endstyle %}
 
 <nav class="header__inline-menu">
   <ul class="list-menu list-menu--inline" role="list">
