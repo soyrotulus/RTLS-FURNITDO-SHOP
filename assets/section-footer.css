@@ -42,7 +42,7 @@
 
 .footer__content-bottom {
   border-top: solid 0.1rem rgba(var(--color-foreground), 0.08);
-  padding-top: 3rem;
+  padding-top: 1rem;
 }
 
 .footer__content-bottom:only-child {
@@ -58,7 +58,15 @@
     gap:5px;
     padding-bottom: 1rem;
 }
-
+.footer__content-bottom-wrapper * {
+    font-size: 1.35rem;
+}
+.footer__branding{
+    font-family: var(--font-heading-family);
+    display: inline;
+    font-size: 2rem;
+    margin-right: 10px;
+}
 @media screen and (max-width: 749px) {
   .footer__content-bottom {
     flex-wrap: wrap;
@@ -510,4 +518,11 @@
       padding-left: 3rem;
     }
   }
+}
+.grid--4-col-tablet .grid__item {
+    width: fit-content;
+}
+
+.footer-block__details-content {
+    max-width: 300px;
 }
