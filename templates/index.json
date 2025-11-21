@@ -70,10 +70,10 @@
           "settings": {
             "image": "shopify://shop_images/bg-base_2.png",
             "image_overlay_opacity": 30,
-            "heading": "Diapositiva de imagen<strong>.</strong>",
+            "heading": "Works for you<strong>.</strong>",
             "heading_size": "h1",
-            "subheading": "Cuenta la historia de tu marca a través de imágenes",
-            "button_label": "Etiqueta de botón",
+            "subheading": "Muebles que inspiran y funcionan",
+            "button_label": "Comprar ahora",
             "link": "#",
             "button_style_secondary": false,
             "show_text_box": false,
