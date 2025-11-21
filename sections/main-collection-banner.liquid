@@ -74,7 +74,7 @@
       <h1 class="collection-hero__title">
         <span class="indication__title {% if section.settings.show_collection_image and collection.image %}color-scheme-5{% else %}color-scheme-4{% endif %}"></span>
         <span class="visually-hidden">{{ 'sections.collection_template.title' | t }}: </span>
-        {{- collection.title | escape -}} <span style="color:{% if section.settings.color_scheme != 'scheme-5' %}#000{% else %}#fff{% endif %};">.</span>
+        {{- collection.title | escape -}} <span style="color:{% if section.settings.show_collection_image and collection.image %}#163683{% else %}#ff4c00{% endif %};">.</span>
       </h1>
 
       {%- if section.settings.show_collection_description -%}
