@@ -50,12 +50,14 @@
         "link_list_bLY7XN"
       ],
       "custom_css": [
-        "strong {color: #ff4c00; font-weight: normal;}"
+        "strong {color: #ff4c00; font-weight: normal;}",
+        ".footer-block:not(.footer-block--menu) h2.footer-block__heading {font-size: 2.4rem; font-weight: 500;}",
+        "h2.footer-block__heading {color: #304b8e;}"
       ],
       "settings": {
         "color_scheme": "scheme-2",
         "newsletter_enable": true,
-        "newsletter_heading": "Ponte al día con Furnit<strong>.</strong>",
+        "newsletter_heading": "Suscríbete y recibe novedades<strong>.</strong>",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": true,
