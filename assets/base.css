@@ -2129,8 +2129,9 @@ input[type='checkbox'] {
 
 @media screen and (min-width: 990px) {
   .utility-bar__grid--3-col {
-    grid-template-columns: 3fr 4fr 3fr;
-    grid-template-areas: 'social-icons announcements language-currency';
+    grid-template-columns: 8fr auto auto;
+    grid-template-areas: "announcements language-currency social-icons";
+    gap: 12px;
   }
 
   .utility-bar__grid--2-col {
@@ -2141,10 +2142,13 @@ input[type='checkbox'] {
   .announcement-bar.announcement-bar--one-announcement,
   .announcement-bar--one-announcement .announcement-bar__link {
     width: fit-content;
-    margin: auto;
+    /* margin: auto; */
   }
 }
-
+.announcement-bar .list-social__item .svg-wrapper{
+  width: 24px;
+  height: 24px;
+}
 .announcement-bar,
 .announcement-bar__announcement {
   color: rgb(var(--color-foreground));
