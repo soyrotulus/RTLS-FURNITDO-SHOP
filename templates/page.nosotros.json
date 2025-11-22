@@ -16,9 +16,152 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "image_with_text_gcdprz": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_3i7znh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contribuimos a que tus espacios sean maravillosos, agradables y prácticos.",
+            "heading_size": "h2"
+          }
+        },
+        "caption_PLQrLY": {
+          "type": "caption",
+          "settings": {
+            "caption": "Sobre Nosotros",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "text_qXb8zw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Somos una tienda autosuficiente en el cual usted mismo puede elegir cómo desea su espacio y llevárselo en cajas al instante.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3i7znh",
+        "caption_PLQrLY",
+        "text_qXb8zw"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/tienda.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-224fa183-606b-453c-ab4c-ad0f7375818a",
+        "padding_top": 16,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_RaeR6k": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_U3n7Cm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Apostando a la innovación somos la primera tienda cashless (sin efectivo) de muebles en RD",
+            "heading_size": "h2"
+          }
+        },
+        "text_xU8xaA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Para lograr lo anterior, nos apoyamos en un equipo de colaboradores comprometidos y facultados. El respaldo total de un selecto grupo de proveedores confiables.  Conjuntamente, trayectoria de experiencia y tradición, ya que somos parte de la familia de<strong> Muebles Omar.</strong></p>"
+          }
+        },
+        "text_jREjky": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Puedes adquirir tus productos por medios digitales como tarjeta de crédito , debito ,transferencias bancarias, link de pagos, códigos QR y otros</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_U3n7Cm",
+        "text_xU8xaA",
+        "text_jREjky"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_r9LJ67": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_FJw69t": {
+          "type": "column",
+          "settings": {
+            "title": "Misión.",
+            "text": "<p>Comercializar productos prácticos, rápido y atractivos que cliente arme haciendo funcional sus espacios. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RmxjLa": {
+          "type": "column",
+          "settings": {
+            "title": "Visión.",
+            "text": "<p>Estar en top of mindpara las soluciones de espacio de oficina y hogar como tienda versátil, funcional y efectiva.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_EEUAP4": {
+          "type": "column",
+          "settings": {
+            "title": "Valores.",
+            "text": "<p>Transparencia, Honestidad, Diligencia y Constante Aprendizaje. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_FJw69t",
+        "column_RmxjLa",
+        "column_EEUAP4"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "scheme-e44d2967-7d1f-4ce3-9613-d9fe20bb9512",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_with_text_gcdprz",
+    "rich_text_RaeR6k",
+    "multicolumn_r9LJ67"
   ]
 }
