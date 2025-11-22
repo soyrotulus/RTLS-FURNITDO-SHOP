@@ -95,7 +95,7 @@
       "name": "t:sections.slideshow.presets.name",
       "settings": {
         "layout": "grid",
-        "slide_height": "large",
+        "slide_height": "medium",
         "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 5,
@@ -127,7 +127,7 @@
         "content_alignment": "left",
         "color_scheme": "scheme-98487ba9-f1e6-4634-95b3-7052e3807641",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 28,
         "padding_bottom": 0
       }
     },
