@@ -9,60 +9,126 @@
  */
 {
   "sections": {
-    "rich_text_VM6PCn": {
-      "type": "rich-text",
+    "image_with_text_HUwN3L": {
+      "type": "image-with-text",
       "blocks": {
-        "caption_WWCfpM": {
-          "type": "caption",
+        "heading_iiwppX": {
+          "type": "heading",
           "settings": {
-            "caption": "Contacto",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "large"
+            "heading": "Visítanos o contáctanos",
+            "heading_size": "h1"
           }
         },
-        "heading_gQUbc6": {
+        "text_McWd3g": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En nuestra tienda autosuficiente puedes diseñar tu espacio a tu gusto y llevarte todo al instante, listo para armar.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_T8DcqJ": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Etiqueta de botón",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_iiwppX",
+        "text_McWd3g",
+        "button_T8DcqJ"
+      ],
+      "custom_css": [
+        ".image-with-text__text {font-size: 2.5rem; line-height: 3rem; opacity: 1;}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/tienda.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-98487ba9-f1e6-4634-95b3-7052e3807641",
+        "color_scheme": "scheme-5",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_FDqDRH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yFEbnr": {
           "type": "heading",
           "settings": {
             "heading": "Works for you<strong>.</strong>",
             "heading_size": "h1"
           }
-        },
-        "text_FknkBB": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Comparte información sobre tu marca con los clientes. Describe un producto, comparte anuncios o da la bienvenida a los clientes a tu tienda.</p>"
-          }
-        },
-        "button_tUVkxn": {
-          "type": "button",
-          "settings": {
-            "button_label": "Etiqueta de botón",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
-        "caption_WWCfpM",
-        "heading_gQUbc6",
-        "text_FknkBB",
-        "button_tUVkxn"
+        "heading_yFEbnr"
+      ],
+      "custom_css": [
+        "strong {color: #ff4c00; font-weight: normal;}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
-        "color_scheme": "scheme-e44d2967-7d1f-4ce3-9613-d9fe20bb9512",
-        "full_width": false,
-        "padding_top": 60,
-        "padding_bottom": 60
+        "color_scheme": "scheme-98487ba9-f1e6-4634-95b3-7052e3807641",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 0
+      }
+    },
+    "multirow_9gHUyq": {
+      "type": "multirow",
+      "blocks": {
+        "row_FKHYDE": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-11-21_at_8.32.23_PM.png",
+            "caption": "",
+            "heading": "Av. Barceló Km 5, Naves San Rafael, Bávaro,  República Dominicana",
+            "text": "<p><strong>Horarios</strong><br/>Lun 3pm - 7pm<br/>Mar - Vie 10am - 7pm<br/>Sab 10am - 6pm</p><p>Tel.:<a href=\"tel:18098312058\" target=\"_blank\" title=\"Llámanos por teléfono\">(809) 831-2058<br/></a>WS.:<a href=\"https://wa.me/18098312058?text=Hola!\" target=\"_blank\" title=\"Escríbenos vía whatsapp\">(809) 831-2058</a><br/></p>",
+            "button_label": "Ver en el mapa",
+            "button_link": "https://maps.app.goo.gl/SwGbZBHecxJY8us9A"
+          }
+        }
+      },
+      "block_order": [
+        "row_FKHYDE"
+      ],
+      "custom_css": [
+        "h2 {font-size: 2rem;}"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "small",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-right",
+        "heading_size": "h1",
+        "text_style": "subtitle",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-98487ba9-f1e6-4634-95b3-7052e3807641",
+        "row_color_scheme": "scheme-2",
+        "padding_top": 36,
+        "padding_bottom": 64
       }
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
@@ -70,8 +136,9 @@
     },
     "form": {
       "type": "contact-form",
+      "disabled": true,
       "settings": {
-        "heading": "",
+        "heading": "Envíanos un mensaje",
         "heading_size": "h1",
         "color_scheme": "scheme-1",
         "padding_top": 36,
@@ -80,7 +147,9 @@
     }
   },
   "order": [
-    "rich_text_VM6PCn",
+    "image_with_text_HUwN3L",
+    "rich_text_FDqDRH",
+    "multirow_9gHUyq",
     "main",
     "form"
   ]
