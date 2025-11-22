@@ -9,15 +9,111 @@
  */
 {
   "sections": {
+    "rich_text_9Ut7jH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bwJRnA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Preguntas frecuentes",
+            "heading_size": "h1"
+          }
+        },
+        "text_488zi7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Encuentra aquí las respuestas a las dudas más comunes sobre nuestros servicios, procesos y experiencias. Hemos reunido la información esencial para ayudarte a tomar decisiones con confianza y claridad. Si no encuentras lo que buscas, nuestro equipo estará encantado de ayudarte.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bwJRnA",
+        "text_488zi7"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 12
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "collapsible_content_VNk9hF": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_W9VrwM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Fila desplegable",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_L4mtEP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Fila desplegable",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_hyV8jW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Fila desplegable",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_MBzKxU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Fila desplegable",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_W9VrwM",
+        "collapsible_row_L4mtEP",
+        "collapsible_row_hyV8jW",
+        "collapsible_row_MBzKxU"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "row",
+        "container_color_scheme": "scheme-2",
+        "color_scheme": "scheme-e44d2967-7d1f-4ce3-9613-d9fe20bb9512",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
-    "main"
+    "rich_text_9Ut7jH",
+    "main",
+    "collapsible_content_VNk9hF"
   ]
 }
