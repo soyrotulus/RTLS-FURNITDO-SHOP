@@ -18,7 +18,7 @@
           "type": "announcement",
           "settings": {
             "text": "Monthly Sale del 1 al 15 de Agosto del 2025. Ver Ofertas",
-            "link": ""
+            "link": "shopify://collections/monthly-sale"
           }
         }
       },
