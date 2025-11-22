@@ -1,5 +1,66 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "rich_text_VM6PCn": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_WWCfpM": {
+          "type": "caption",
+          "settings": {
+            "caption": "Contacto",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "heading_gQUbc6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Works for you<strong>.</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_FknkBB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Comparte información sobre tu marca con los clientes. Describe un producto, comparte anuncios o da la bienvenida a los clientes a tu tienda.</p>"
+          }
+        },
+        "button_tUVkxn": {
+          "type": "button",
+          "settings": {
+            "button_label": "Etiqueta de botón",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_WWCfpM",
+        "heading_gQUbc6",
+        "text_FknkBB",
+        "button_tUVkxn"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-e44d2967-7d1f-4ce3-9613-d9fe20bb9512",
+        "full_width": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -19,6 +80,7 @@
     }
   },
   "order": [
+    "rich_text_VM6PCn",
     "main",
     "form"
   ]
