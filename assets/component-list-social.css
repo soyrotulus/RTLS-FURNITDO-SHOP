@@ -11,8 +11,8 @@
 }
 
 .list-social__item .icon {
-  height: 2.2rem;
-  width: 2.2rem;
+  height: 6.2rem;
+  width: 6.2rem;
 }
 
 .list-social__link {
@@ -29,4 +29,9 @@
 
 .list-social__link:hover .icon {
   transform: scale(1.07);
+}
+
+.list-social__item .svg-wrapper {
+    width: 30px;
+    height: 30px;
 }
