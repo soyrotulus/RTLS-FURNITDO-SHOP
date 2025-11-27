@@ -135,7 +135,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "all",
-        "products_to_show": 8,
+        "products_to_show": 4,
         "title": "",
         "heading_size": "h2",
         "description": "",
@@ -243,7 +243,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "all",
-        "products_to_show": 8,
+        "products_to_show": 4,
         "title": "",
         "heading_size": "h2",
         "description": "",
