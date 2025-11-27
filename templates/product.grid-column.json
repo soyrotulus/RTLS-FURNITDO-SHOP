@@ -98,7 +98,7 @@
         "media_size": "large",
         "constrain_to_viewport": false,
         "media_fit": "contain",
-        "gallery_layout": "columns",
+        "gallery_layout": "stacked",
         "mobile_thumbnails": "show",
         "media_position": "left",
         "image_zoom": "lightbox",
